@@ -19,7 +19,8 @@ class MyDrawer extends StatelessWidget {
                 accountEmail: Text("mohosin@alsoft.org"),
                 // currentAccountPicture: Image.asset(imageUrl),
                 currentAccountPicture: CircleAvatar(
-                  backgroundImage: AssetImage(imageUrl),
+                  backgroundImage:
+                      AssetImage(assets / images / bridge.png)(imageUrl),
                 ),
               ),
             ),

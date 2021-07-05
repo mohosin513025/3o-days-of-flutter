@@ -6,7 +6,7 @@ class MyTheme {
       primarySwatch: Colors.deepPurple,
       fontFamily: GoogleFonts.lato().fontFamily,
       appBarTheme: AppBarTheme(
-        color: Colors.white,
+        color: Colors.deepOrangeAccent,
         elevation: 0.0,
         iconTheme: IconThemeData(
           color: Colors.black,

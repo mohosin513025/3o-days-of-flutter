@@ -78,9 +78,9 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                     validator: (value) {
                       if (value.isEmpty) {
-                        return " Password can not empty";
+                        return "Password can not empty";
                       } else if (value.length < 6) {
-                        return " Password must be more than 6 digits";
+                        return "Password must be more than 6 digits";
                       }
                     },
                   ),
